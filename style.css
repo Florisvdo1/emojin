@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E5F6FD;
+}
+.app-header {
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.time-container {
+  font-size: 18px;
+}
+.time-icon {
+  margin-right: 10px;
+}
+.app-title {
+  font-size: 24px;
+  margin: 0;
+}
+.format-toggle-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.slot {
+  margin: 20px;
+  padding: 20px;
+  border: 1px dashed #ccc;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.placeholder {
+  font-size: 24px;
+  cursor: pointer;
+  min-height: 50px;
+  line-height: 50px;
+}
+.emoji {
+  font-size: 24px;
+  cursor: grab;
+}
+.emoji[data-dragging="true"] {
+  opacity: 0.5;
+}
+.emoji-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
